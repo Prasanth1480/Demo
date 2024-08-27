@@ -8,7 +8,7 @@ public class Login {
          System.out.print("Enter password => ");
          String password = scanner.nextLine();
 
-         if ("raju".equals(userName) && "1436Raju".equals(password)) {
+         if ("prasanth".equals(userName) && "1234raju".equals(password)) {
              System.out.println("User successfully logged-in.");
          } else {
              System.out.println("Invalid username or password.");
